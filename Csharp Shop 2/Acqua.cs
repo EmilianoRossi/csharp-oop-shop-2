@@ -100,5 +100,30 @@ namespace Csharp_Shop_2
 
         }
 
+        public static void DaLitriAGalloni(string litri)
+        {
+
+            double litriG = double.Parse(litri);
+            if (litriG > 0)
+            {
+
+                double galloni = litriG * 3.785;
+                galloni = galloni * litriG;
+                Console.WriteLine(galloni);
+
+            }
+            else
+            {
+                double galloni = litriG / 3.785;
+                galloni *= litriG;
+                Console.WriteLine(galloni + " Galloni");
+           }
+
+        }
+
+
+
     }
 }
+    
+
