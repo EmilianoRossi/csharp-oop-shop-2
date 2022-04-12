@@ -15,7 +15,7 @@ namespace Csharp_Shop_2
         private double prezzo;
         private double iva;
         public Prodotto(string nome, string descrizione)
-        {
+        { 
             this.nome = nome;
             this.descrizione = descrizione;
             this.prezzo = prezzo;
