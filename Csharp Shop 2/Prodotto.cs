@@ -11,7 +11,7 @@ namespace Csharp_Shop_2
 
         private int codice;
         private protected string nome;
-        private string descrizione;
+        private protected string descrizione;
         private double prezzo;
         private double iva;
         public Prodotto(string nome, string descrizione)
@@ -89,7 +89,7 @@ namespace Csharp_Shop_2
         }
             //------------------------------------------------------
             //----------------------FUNZIONI------------------------
-        public void NomeEsteso()
+        public void StampaDati()
         {
             Console.WriteLine("Il codice + nome è: " + codice + "-" + nome);
         }
