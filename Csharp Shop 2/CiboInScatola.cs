@@ -75,10 +75,11 @@ namespace Csharp_Shop_2
 
         }
 
-        public new static void stampaDati()
+        public new void StampaDati()
         {
 
-
+            Console.WriteLine(base.PadLeft() + " - " + base.nome);
+            Console.WriteLine("Il peso del sacchetto è: " + this.peso + "\n" + "vendiamo sacchetti da max: " + this.peso + "\n" + "Il sacchetto contiene: " + this.nome + " Descrizione: " + this.descrizione);
 
         }
 
