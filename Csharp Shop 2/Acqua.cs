@@ -80,13 +80,19 @@ namespace Csharp_Shop_2
             if (litriDaInserire > this.litri)
             {
                 this.litri = 1.5;
-                Console.WriteLine("La bottiglia è piena");
+                Console.WriteLine("La bottiglia è piena, ha trabboccato");
+
+            }
+            else if(litriDaInserire < this.litri)
+            {
+
+                Console.WriteLine("La bottiglia non è ancora piena");
 
             }
             else
             {
 
-                Console.WriteLine("La bottiglia non è ancora piena");
+                Console.WriteLine("Bottiglia piena, 1.5 litri");
 
             }
 
